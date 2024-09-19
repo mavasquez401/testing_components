@@ -22,3 +22,4 @@ async function fetch_demo() {
 fetch_demo();
 
 // this example bypasses if the info is not in JSON and provides the HTML code instead.
+// fetch is heavy with promises

@@ -10,3 +10,4 @@ fetch_demo();
 
 // not a good way to get information as it only strictly pulls json data.
 // e.g. if web is in html and JSON, you would get an error
+// fetch is heavy with promises which is why this one does not work.
