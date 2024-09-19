@@ -1,3 +1,5 @@
+//this test is for http non secure connection
+
 // Import the "http" package
 const http = require('http');
 
@@ -8,6 +10,8 @@ const req = http.request('http://example.com', (res) => {
   res.on('data', (_) => data.push(_));
   res.on('end', () => console.log(data.join()));
 });
+
+//information this would give is the HTML code of the page
 
 // Close the connection
 req.end();
