@@ -11,16 +11,16 @@ async function fetchAllData(url) {
   }
 }
 
-// Extract and print all data from the HTML
-async function scrapeAllData(url) {
+// Extract and print all text content from the HTML
+async function scrapeAllText(url) {
   const html = await fetchAllData(url);
   const $ = cheerio.load(html);
 
-  // Select the body of the page, which includes all content
-  const allData = $('body').html();
+  // Select and extract the text content from the body of the page
+  const allText = $('body').text();
 
-  console.log(allData); // Print all data in the body tag
+  console.log(allText.trim()); // Print all the text content in the body tag
 }
 
 const url = 'https://thebossauthenticthairi.smiledining.com/?2024082601';
-scrapeAllData(url);
+scrapeAllText(url);

@@ -1,0 +1,191 @@
+{
+  "id": "8f107102-ca2f-4505-aa71-665953235c93",
+  "version": "2.0",
+  "name": "scrapertest",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "c5a74793-30e9-41b4-bd3d-91c01a9a4d74",
+    "name": "menubutton",
+    "commands": [{
+      "id": "19a13680-0b39-496d-a835-a8de35b58c89",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "07e3de80-e504-4e6c-bee1-69d6eb9a4771",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x950",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ada3633-83b0-488c-a8a0-4199ea66863e",
+      "comment": "",
+      "command": "click",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45463b70-8383-47d8-831e-b30b6b2d34aa",
+      "comment": "",
+      "command": "type",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "the capital grille providence menu"
+    }, {
+      "id": "189e4ed9-025f-4eef-bd11-aa72fc6e1104",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(1) > div > .ab_button > div",
+      "targets": [
+        ["css=div:nth-child(1) > div > .ab_button > div", "css:finder"],
+        ["xpath=//div[@id='_5EDwZtDxK9PcptQP_pu7qQU_63']/div/div[2]/div/div/div/div/span[2]/div/div/div/div/a/div", "xpath:idRelative"],
+        ["xpath=//span[2]/div/div/div/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f24a5547-1d13-4e99-b376-0f1092149eef",
+    "name": "capitalgrillemenu",
+    "commands": [{
+      "id": "3f5e6733-5bfd-4d80-969b-e119a41ad977",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "970a43e6-01f9-4638-b1b9-995cfc70aa5c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x950",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "35655af9-1c68-4041-a50a-edc9ad17a5bb",
+      "comment": "",
+      "command": "type",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "capital grille"
+    }, {
+      "id": "d72348ae-6e13-42ce-9d2f-1f85235b3671",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Dinner Menu",
+      "targets": [
+        ["linkText=Dinner Menu", "linkText"],
+        ["css=.mslg:nth-child(2) .l", "css:finder"],
+        ["xpath=//a[contains(text(),'Dinner Menu')]", "xpath:link"],
+        ["xpath=//div[@id='rso']/div/div/div/div/table/tbody/tr[2]/td/div/div/div/div/span/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.thecapitalgrille.com/menu/dinner')]", "xpath:href"],
+        ["xpath=//tr[2]/td/div/div/div/div/span/h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Dinner Menu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab38a0c7-a9f4-4c89-a332-b383261ed1d2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ed2d4f6-e0ec-4c4b-8e1d-c1cf8f8ed71b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1dbjc4n:nth-child(2) > .css-1dbjc4n:nth-child(2) > .css-1dbjc4n:nth-child(1) > .css-1dbjc4n:nth-child(2) > .css-1dbjc4n:nth-child(1) > .css-1dbjc4n:nth-child(1) > .css-1dbjc4n:nth-child(1) .css-1dbjc4n:nth-child(1) > .css-901oao:nth-child(1)",
+      "targets": [
+        ["css=.css-1dbjc4n:nth-child(2) > .css-1dbjc4n:nth-child(2) > .css-1dbjc4n:nth-child(1) > .css-1dbjc4n:nth-child(2) > .css-1dbjc4n:nth-child(1) > .css-1dbjc4n:nth-child(1) > .css-1dbjc4n:nth-child(1) .css-1dbjc4n:nth-child(1) > .css-901oao:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div[2]/div/div/div/div[4]/div[2]/div[2]/div/div[2]/div/div/div/div/a/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div[2]/div/div/div/div/a/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6af90df2-5251-4829-b9e3-abb8fd0fdf1f",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.r-1pvndpw",
+      "targets": [
+        ["css=.r-1pvndpw", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//body/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b2adbdb-302c-469f-9a05-0e8bc7d4cf26",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.r-1jwulwa",
+      "targets": [
+        ["css=.r-1jwulwa", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//body/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cdc393e0-80dd-4a0e-a18e-587688441d8f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.r-jwli3a",
+      "targets": [
+        ["css=.r-jwli3a", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div[2]/div/div/div[2]/div[2]/div/div/div/div/a/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/a/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54811c60-0e25-439e-acf6-ef9b150851c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=#DINNER .css-901oao",
+      "targets": [
+        ["css=#DINNER .css-901oao", "css:finder"],
+        ["xpath=//div[@id='DINNER']/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/div/div/div[3]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2fb98fe-7d9a-4c7c-93ef-efc9f9c95a5e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#DESSERT > .css-1dbjc4n",
+      "targets": [
+        ["css=#DESSERT > .css-1dbjc4n", "css:finder"],
+        ["xpath=//div[@id='DESSERT']/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[5]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "355de146-c237-4425-9d2f-a1e5ccdefcb1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c5a74793-30e9-41b4-bd3d-91c01a9a4d74"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
