@@ -5,7 +5,9 @@ const cheerio = require('cheerio');
 const getPostTitles = async () => {
   try {
     // Load Reddit
-    const { data } = await axios.get('https://old.reddit.com/r/programming/');
+    const { data } = await axios.get(
+      'https://www.thecapitalgrille.com/menu/lunch'
+    );
 
     // Parse HTML with Cheerio
     const $ = cheerio.load(data);
